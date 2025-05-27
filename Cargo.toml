@@ -1,0 +1,9 @@
+[package]
+name = "shake256_file_hasher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sha3 = "0.10"
+clap = { version = "4.3", features = ["derive"] }
+hex = "0.4"
